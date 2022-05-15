@@ -18,11 +18,11 @@ if npm install ; then
     echo "Successful install"
 
     # Run the Maintenance script if it is the final commit
-    if [ "$2" == "final" ] ; then
-        echo "Going to run Maintenance script"
-        bash ./Maintenance.sh
-        echo "Maintenance script Ended"
-    fi
+    # if [ "$2" == "final" ] ; then
+    #     echo "Going to run Maintenance script"
+    #     bash ./Maintenance.sh
+    #    echo "Maintenance script Ended"
+    # fi
     
     echo "(2) Build. See whether we can build the program"
     if npm run build ; then

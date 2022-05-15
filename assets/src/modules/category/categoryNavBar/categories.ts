@@ -1,4 +1,4 @@
-//
+// Kevin Han - 1521885
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",
