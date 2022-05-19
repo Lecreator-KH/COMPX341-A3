@@ -1,4 +1,4 @@
-// Kevin Han - 1521885 Kevin Han - 1521885
+// Kevin Han - 1521885
 export default {
   apiGateway: {
     REGION: "us-east-1",
